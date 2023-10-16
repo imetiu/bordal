@@ -1,0 +1,20 @@
+val -a) 
+echo $CELESTIA_VALOPER 
+echo 'export CELESTIA_VALOPER='${CELESTIA_VALOPER} >> $HOME/.bash_profile 
+source $HOME/.bash_profile
+
+--------------------------------------------
+با لینک https://discord.gg/celestiacommunity وارد دیسکورد پروژه بشید و به بخش mamaki faucet  برید و به شکل زیر ادرس خودتون رو وارد کنید و درخواست فاست شبکه رو بدید
+$request celestia1a35035fu83jkeeqz00d3jmt3k5wu5x3lyvn6qp
+
+------------------------------------- 
+با کد زیر هم میتونید موجودی ولت خودتون رو ببنید  که به جای ایکس ها ادرس خودتون رو وارد کنید 
+
+celestia-appd q bank balances xxxxxxxxxxxxxCTRL+C را فشار دهید تا لاگ ها متوقف شوند
+
+---------------------------------
+قبل از ادامه، با کد زیر مطمئن شوید که به طور کامل با شبکه همگام شده اید 
+
+curl -s localhost:26657/status | grep block_height
+------------------------------------------------
+باید منتظر بمانید تا گره Validator شما همه بلوک‌ها را از زنجیره بلوکی سلستیا دانلود کند
